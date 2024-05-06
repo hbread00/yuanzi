@@ -44,8 +44,8 @@ show_always = true
 format = '[$user]($style)'
 
 [hostname]
-format = '[$ssh_symbol$hostname]($style)'
-ssh_symbol = '󰣀 '
+format = '@[$hostname$ssh_symbol]($style)'
+ssh_symbol = '󰣀'
 
 [directory]
 format = '\[[$path]($style)[($read_only)]($read_only_style)\]'
