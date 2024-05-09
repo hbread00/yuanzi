@@ -1,0 +1,171 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+
+format = """
+╭\
+\\[\
+$username\
+$hostname\
+\\]\
+$directory\
+$git_branch\
+$cmd_duration\
+$fill\
+(\
+$bun\
+$nodejs\
+$c\
+$dotnet\
+$golang\
+$java\
+$python\
+$rust\
+-)\
+$container\
+$os\
+$battery\
+$time\
+$linebreak
+╰\
+$character\
+"""
+
+[character]
+success_symbol = '[>](bold green)'
+error_symbol = '[>](bold red)'
+
+[cmd_duration]
+min_time = 0
+format = '\([$duration]($style)\)'
+
+[username]
+show_always = true
+format = '[$user]($style)'
+
+[hostname]
+format = '@[$hostname$ssh_symbol]($style)'
+ssh_symbol = '󰣀'
+
+[directory]
+format = '\[[$path]($style)[($read_only)]($read_only_style)\]'
+read_only = '!'
+
+[git_branch]
+format = '\([$symbol$branch(:$remote_branch)]($style)\)'
+symbol = ""
+
+[fill]
+symbol = '─'
+
+[bun]
+format = '\([$symbol$version]($style)\)'
+symbol = '󱠷'
+version_format = '${raw}'
+
+[nodejs]
+format = '\([$symbol$version]($style)\)'
+symbol = ''
+version_format = '${raw}'
+
+[c]
+format = '\([$symbol($name:)$version]($style)\)'
+symbol = ''
+version_format = '${raw}'
+
+[dotnet]
+format = '\([$symbol$version(:$tfm)]($style)\)'
+symbol = '󰪮'
+version_format = '${raw}'
+
+[golang]
+format = '\([$symbol$version(<$mod_version)]($style)\)'
+symbol = '󰟓'
+version_format = '${raw}'
+
+[java]
+format = '\([$symbol$version]($style)\)'
+symbol = ''
+version_format = '${raw}'
+
+[python]
+format = '\([$symbol$pyenv_prefix$version(\($virtualenv\))]($style)\)'
+symbol = '󰌠'
+version_format = '${raw}'
+
+[rust]
+format = '\([$symbol$version]($style)\)'
+symbol = '󱘗'
+version_format = '${raw}'
+
+[container]
+format = '\([$symbol$name]($style)\)'
+symbol = ""
+
+[os]
+disabled = false
+format = '\[[$symbol$type]($style)\]'
+
+[os.symbols]
+Alpaquita = ""
+Alpine = ""
+AlmaLinux = ""
+Amazon = ""
+Android = ""
+Arch = ""
+Artix = ""
+CentOS = ""
+Debian = ""
+DragonFly = ""
+Emscripten = ""
+EndeavourOS = ""
+Fedora = ""
+FreeBSD = ""
+Garuda = "󰛓"
+Gentoo = ""
+HardenedBSD = "󰞌"
+Illumos = "󰈸"
+Kali = ""
+Linux = ""
+Mabox = ""
+Macos = ""
+Manjaro = ""
+Mariner = ""
+MidnightBSD = ""
+Mint = ""
+NetBSD = ""
+NixOS = ""
+OpenBSD = "󰈺"
+openSUSE = ""
+OracleLinux = "󰌷"
+Pop = ""
+Raspbian = ""
+Redhat = ""
+RedHatEnterprise = ""
+RockyLinux = ""
+Redox = "󰀘"
+Solus = "󰠳"
+SUSE = ""
+Ubuntu = ""
+Unknown = ""
+Void = ""
+Windows = "󰍲"
+
+[battery]
+format = '\[[$symbol$percentage]($style)\]'
+
+[[battery.display]]
+threshold = 20
+style = 'bold red'
+
+[[battery.display]]
+threshold = 50
+style = 'bold orange'
+
+[[battery.display]]
+threshold = 100
+style = 'bold green'
+
+[time]
+disabled = false
+format = '\[[$time]($style)\]'
