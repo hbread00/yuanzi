@@ -107,6 +107,7 @@ disabled = false
 format = '\[[$symbol$type]($style)\]'
 
 [os.symbols]
+AIX = "🖥️"
 Alpaquita = '🔔'
 Alpine = '⛰️'
 AlmaLinux = '🤝'
