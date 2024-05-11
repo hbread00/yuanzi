@@ -60,12 +60,12 @@ symbol = '─'
 
 [bun]
 format = '\([$symbol$version]($style)\)'
-symbol = ' '
+symbol = ' '
 version_format = '${raw}'
 
 [nodejs]
 format = '\([$symbol$version]($style)\)'
-symbol = ' '
+symbol = ' '
 version_format = '${raw}'
 
 [c]
@@ -85,12 +85,12 @@ version_format = '${raw}'
 
 [java]
 format = '\([$symbol$version]($style)\)'
-symbol = ' '
+symbol = ' '
 version_format = '${raw}'
 
 [python]
 format = '\([$symbol$pyenv_prefix$version(\($virtualenv\))]($style)\)'
-symbol = ' '
+symbol = ' '
 version_format = '${raw}'
 
 [rust]
@@ -123,11 +123,11 @@ Fedora = ' '
 FreeBSD = ' '
 Garuda = ' '
 Gentoo = ' '
-HardenedBSD = ' '
+HardenedBSD = ' '
 Illumos = ' '
 Kali = ' '
 Linux = ' '
-Mabox = ' '
+Mabox = ' '
 Macos = ' '
 Manjaro = ' '
 Mariner = ' '
@@ -168,4 +168,4 @@ style = 'bold green'
 
 [time]
 disabled = false
-format = '\[ [$time]($style)\]'
+format = '\[ [$time]($style)\]'

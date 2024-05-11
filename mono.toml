@@ -1,4 +1,4 @@
-"$schema" = 'https://starship.rs/config-schema.json'
+'$schema' = 'https://starship.rs/config-schema.json'
 
 add_newline = false
 
@@ -45,7 +45,7 @@ format = '[$user]($style)'
 
 [hostname]
 format = '@[$hostname$ssh_symbol]($style)'
-ssh_symbol = '󰣀'
+ssh_symbol = ''
 
 [directory]
 format = '\[[$path]($style)[($read_only)]($read_only_style)\]'
@@ -53,19 +53,19 @@ read_only = '!'
 
 [git_branch]
 format = '\([$symbol$branch(:$remote_branch)]($style)\)'
-symbol = ""
+symbol = ''
 
 [fill]
 symbol = '─'
 
 [bun]
 format = '\([$symbol$version]($style)\)'
-symbol = '󱠷'
+symbol = ''
 version_format = '${raw}'
 
 [nodejs]
 format = '\([$symbol$version]($style)\)'
-symbol = ''
+symbol = ''
 version_format = '${raw}'
 
 [c]
@@ -75,81 +75,81 @@ version_format = '${raw}'
 
 [dotnet]
 format = '\([$symbol$version(:$tfm)]($style)\)'
-symbol = '󰪮'
+symbol = ''
 version_format = '${raw}'
 
 [golang]
 format = '\([$symbol$version(<$mod_version)]($style)\)'
-symbol = '󰟓'
+symbol = ''
 version_format = '${raw}'
 
 [java]
 format = '\([$symbol$version]($style)\)'
-symbol = ''
+symbol = ''
 version_format = '${raw}'
 
 [python]
 format = '\([$symbol$pyenv_prefix$version(\($virtualenv\))]($style)\)'
-symbol = '󰌠'
+symbol = ''
 version_format = '${raw}'
 
 [rust]
 format = '\([$symbol$version]($style)\)'
-symbol = '󱘗'
+symbol = ''
 version_format = '${raw}'
 
 [container]
 format = '\([$symbol$name]($style)\)'
-symbol = ""
+symbol = ''
 
 [os]
 disabled = false
 format = '\[[$symbol$type]($style)\]'
 
 [os.symbols]
-Alpaquita = ""
-Alpine = ""
-AlmaLinux = ""
-Amazon = ""
-Android = ""
-Arch = ""
-Artix = ""
-CentOS = ""
-Debian = ""
-DragonFly = ""
-Emscripten = ""
-EndeavourOS = ""
-Fedora = ""
-FreeBSD = ""
-Garuda = "󰛓"
-Gentoo = ""
-HardenedBSD = "󰞌"
-Illumos = "󰈸"
-Kali = ""
-Linux = ""
-Mabox = ""
-Macos = ""
-Manjaro = ""
-Mariner = ""
-MidnightBSD = ""
-Mint = ""
-NetBSD = ""
-NixOS = ""
-OpenBSD = "󰈺"
-openSUSE = ""
-OracleLinux = "󰌷"
-Pop = ""
-Raspbian = ""
-Redhat = ""
-RedHatEnterprise = ""
-RockyLinux = ""
-Redox = "󰀘"
-Solus = "󰠳"
-SUSE = ""
-Ubuntu = ""
-Unknown = ""
-Void = ""
-Windows = "󰍲"
+Alpaquita = ''
+Alpine = ''
+AlmaLinux = ''
+Amazon = ''
+Android = ''
+Arch = ''
+Artix = ''
+CentOS = ''
+Debian = ''
+DragonFly = ''
+Emscripten = ''
+EndeavourOS = ''
+Fedora = ''
+FreeBSD = ''
+Garuda = ''
+Gentoo = ''
+HardenedBSD = ''
+Illumos = ''
+Kali = ''
+Linux = ''
+Mabox = ''
+Macos = ''
+Manjaro = ''
+Mariner = ''
+MidnightBSD = ''
+Mint = ''
+NetBSD = ''
+NixOS = ''
+OpenBSD = ''
+openSUSE = ''
+OracleLinux = '󰌷'
+Pop = ''
+Raspbian = ''
+Redhat = ''
+RedHatEnterprise = ''
+RockyLinux = ''
+Redox = '󰀘'
+Solus = '󰠳'
+SUSE = ''
+Ubuntu = ''
+Unknown = ''
+Void = ''
+Windows = ''
 
 [battery]
 format = '\[[$symbol$percentage]($style)\]'
@@ -168,4 +168,4 @@ style = 'bold green'
 
 [time]
 disabled = false
-format = '\[[$time]($style)\]'
+format = '\[[$time]($style)\]'
