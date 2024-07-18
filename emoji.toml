@@ -16,12 +16,12 @@ $fill\
 $bun\
 $nodejs\
 $c\
+$cmake\
 $dotnet\
 $golang\
 $java\
 $python\
 $rust\
-$cmake\
 -)\
 $container\
 $os\
