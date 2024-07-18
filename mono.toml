@@ -107,6 +107,11 @@ format = '\([$symbol$version]($style)\)'
 symbol = ''
 version_format = '${raw}'
 
+[lua]
+format = '\([$symbol$version]($style)\)'
+symbol = ''
+version_format = '${raw}'
+
 [nodejs]
 format = '\([$symbol$version]($style)\)'
 symbol = ''

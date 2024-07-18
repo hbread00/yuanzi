@@ -22,6 +22,7 @@ $golang\
 $gradle\
 $java\
 $kotlin\
+$lua\
 $nodejs\
 $python\
 $rust\
@@ -105,6 +106,11 @@ version_format = '${raw}'
 [kotlin]
 format = '\([$symbol$version]($style)\)'
 symbol = ' '
+version_format = '${raw}'
+
+[lua]
+format = '\([$symbol$version]($style)\)'
+symbol = ' '
 version_format = '${raw}'
 
 [nodejs]
