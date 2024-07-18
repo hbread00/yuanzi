@@ -21,6 +21,7 @@ $dotnet\
 $golang\
 $gradle\
 $java\
+$kotlin\
 $nodejs\
 $python\
 $rust\
@@ -99,6 +100,11 @@ version_format = '${raw}'
 [java]
 format = '\([$symbol$version]($style)\)'
 symbol = '☕'
+version_format = '${raw}'
+
+[kotlin]
+format = '\([$symbol$version]($style)\)'
+symbol = '🏝️'
 version_format = '${raw}'
 
 [nodejs]
