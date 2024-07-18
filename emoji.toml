@@ -25,6 +25,7 @@ $kotlin\
 $lua\
 $nodejs\
 $package\
+$php\
 $python\
 $rust\
 -)\
@@ -122,6 +123,11 @@ version_format = '${raw}'
 [package]
 format = '\([$symbol$version]($style)\)'
 symbol = '📦'
+version_format = '${raw}'
+
+[php]
+format = '\([$symbol$version]($style)\)'
+symbol = '🐘'
 version_format = '${raw}'
 
 [python]
