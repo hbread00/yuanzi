@@ -19,6 +19,7 @@ $cmake\
 $dart\
 $dotnet\
 $golang\
+$gradle\
 $java\
 $nodejs\
 $python\
@@ -88,6 +89,11 @@ version_format = '${raw}'
 [golang]
 format = '\([$symbol$version(<$mod_version)]($style)\)'
 symbol = ''
+version_format = '${raw}'
+
+[gradle]
+format = '\([$symbol$version]($style)\)'
+symbol = ''
 version_format = '${raw}'
 
 [java]
