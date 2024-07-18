@@ -28,6 +28,7 @@ $package\
 $php\
 $python\
 $rlang\
+$ruby\
 $rust\
 -)\
 $container\
@@ -139,6 +140,11 @@ version_format = '${raw}'
 [rlang]
 format = '\([$symbol$version]($style)\)'
 symbol = ''
+version_format = '${raw}'
+
+[ruby]
+format = '\([$symbol$version]($style)\)'
+symbol = ''
 version_format = '${raw}'
 
 [rust]
