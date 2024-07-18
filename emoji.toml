@@ -27,6 +27,7 @@ $nodejs\
 $package\
 $php\
 $python\
+$rlang\
 $rust\
 -)\
 $container\
@@ -133,6 +134,11 @@ version_format = '${raw}'
 [python]
 format = '\([$symbol$pyenv_prefix$version(\($virtualenv\))]($style)\)'
 symbol = '🐍'
+version_format = '${raw}'
+
+[rlang]
+format = '\([$symbol$version]($style)\)'
+symbol = '®️'
 version_format = '${raw}'
 
 [rust]
