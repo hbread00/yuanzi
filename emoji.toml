@@ -30,6 +30,7 @@ $python\
 $rlang\
 $ruby\
 $rust\
+$scala\
 -)\
 $container\
 $os\
@@ -150,6 +151,11 @@ version_format = '${raw}'
 [rust]
 format = '\([$symbol$version]($style)\)'
 symbol = '🦀'
+version_format = '${raw}'
+
+[scala]
+format = '\([$symbol$version]($style)\)'
+symbol = '🧬'
 version_format = '${raw}'
 
 [container]
