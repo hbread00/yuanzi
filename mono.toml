@@ -74,6 +74,11 @@ format = '\([$symbol($name:)$version]($style)\)'
 symbol = ''
 version_format = '${raw}'
 
+[cmake]
+format = '\([$symbol$version]($style)\)'
+symbol = ''
+version_format = '${raw}'
+
 [dotnet]
 format = '\([$symbol$version(:$tfm)]($style)\)'
 symbol = ''
@@ -97,11 +102,6 @@ version_format = '${raw}'
 [rust]
 format = '\([$symbol$version]($style)\)'
 symbol = ''
-version_format = '${raw}'
-
-[cmake]
-format = '\([$symbol$version]($style)\)'
-symbol = ''
 version_format = '${raw}'
 
 [container]
