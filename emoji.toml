@@ -157,18 +157,30 @@ Windows = '🪟'
 
 [battery]
 format = '\[[$symbol$percentage]($style)\]'
+full_symbol = '🔋'
+charging_symbol = '⚡'
+discharging_symbol = '🔋'
+unknown_symbol = '❓'
+empty_symbol = '🪫'
+
 
 [[battery.display]]
 threshold = 20
 style = 'bold red'
+charging_symbol = '🪫'
+discharging_symbol = '🪫'
 
 [[battery.display]]
 threshold = 50
 style = 'bold orange'
+charging_symbol = '🔋'
+discharging_symbol = '🔋'
 
 [[battery.display]]
-threshold = 100
+threshold = 90
 style = 'bold green'
+charging_symbol = '🔋'
+discharging_symbol = '🔋'
 
 [time]
 disabled = false
