@@ -21,6 +21,7 @@ $golang\
 $java\
 $python\
 $rust\
+$cmake\
 -)\
 $container\
 $os\
@@ -96,6 +97,11 @@ version_format = '${raw}'
 [rust]
 format = '\([$symbol$version]($style)\)'
 symbol = ' '
+version_format = '${raw}'
+
+[cmake]
+format = '\([$symbol$version]($style)\)'
+symbol = ' '
 version_format = '${raw}'
 
 [container]
