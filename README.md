@@ -1,5 +1,6 @@
 # yuanzi
 
+![Example](./example.webp)
 Starship preset, inspired by the Atomic theme from Oh My Posh.
 
 - Default: The default style
